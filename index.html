@@ -54,9 +54,9 @@
             </button>
         </nav>
     </header>
-
-    <div class="columns-2 p-7 gap-4">
-      <div class="aspect-1/2 ">
+    <section class="max-w-6xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+    <div class="space-y-6">
+      
         <h2 class="text-4xl font-bold"> Mecanica, Eletrônica e<span class="text-mec-amber"> Software</span>, numa peça só.</h2>
         <h3 class="text-sm font-normal my-4 text-mec-secondary">Projetamos e integramos sistemas pra linhas de produção, do sensor ao painel de controle.</h3>
         <div class="flex gap-4">
@@ -65,22 +65,216 @@
         </div>
       </div>
 
-
-
-      <div class="aspect-2/2 bg-mec-panel rounded-3xl border-8 border-mec-amber/20 flex items-center justify-center p-20 ">
+      <div class="space-y-6 bg-mec-panel rounded-3xl border-8 border-mec-amber/20 flex items-center justify-center p-20 ">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
         class="size-8 h-50 w-50 text-mec-text">
 
           <path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.559.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.894.149c-.424.07-.764.383-.929.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.398.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.272-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894Z" />
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-        </svg>
-
-        
+        </svg>  
       </div>
     </div>
-  
-</body>
-</html>
-    
+    </section>
+    <!-- SEÇÃO: SOLUÇÕES -->
+  <section id="solucoes" class="max-w-6xl mx-auto px-6 py-20 border-t border-mec-line/50">
+    <div class="text-center max-w-xl mx-auto mb-16">
+      <h2 class="font-display text-3xl md:text-4xl font-bold mb-3">Soluções</h2>
+      <p class="text-mec-secondary text-sm">O que a gente projeta e integra</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <!-- Cartão 1 -->
+      <div class="bg-mec-panel p-8 rounded-2xl border border-mec-line hover:border-mec-amber/50 transition-colors group">
+        <div class="w-12 h-12 rounded-xl bg-mec-bg flex items-center justify-center text-2xl mb-6 text-mec-amber group-hover:scale-110 transition-transform">
+          🤖
+        </div>
+        <h3 class="font-display text-xl font-semibold mb-2">Robótica industrial</h3>
+        <p class="text-mec-secondary text-sm">
+          Braços robóticos programados sob medida pra montagem e paletização.
+        </p>
+      </div>
+
+      <!-- Cartão 2 -->
+      <div class="bg-mec-panel p-8 rounded-2xl border border-mec-line hover:border-mec-amber/50 transition-colors group">
+        <div class="w-12 h-12 rounded-xl bg-mec-bg flex items-center justify-center text-2xl mb-6 text-mec-amber group-hover:scale-110 transition-transform">
+          🏭
+        </div>
+        <h3 class="font-display text-xl font-semibold mb-2">Automação de linhas</h3>
+        <p class="text-mec-secondary text-sm">
+          Sensores, atuadores e CLPs integrados numa esteira já existente.
+        </p>
+      </div>
+
+      <!-- Cartão 3 -->
+      <div class="bg-mec-panel p-8 rounded-2xl border border-mec-line hover:border-mec-amber/50 transition-colors group">
+        <div class="w-12 h-12 rounded-xl bg-mec-bg flex items-center justify-center text-2xl mb-6 text-mec-amber group-hover:scale-110 transition-transform">
+          🔬
+        </div>
+        <h3 class="font-display text-xl font-semibold mb-2">Manutenção preditiva</h3>
+        <p class="text-mec-secondary text-sm">
+          Monitoramento em tempo real pra prever falhas antes de acontecer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SEÇÃO: PROCESSO -->
+  <section id="processos" class="bg-mec-panel/40 border-y border-mec-line py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center max-w-xl mx-auto mb-16">
+        <h2 class="font-display text-3xl md:text-4xl font-bold">Como um projeto acontece</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Passo 01 -->
+        <div class="space-y-3">
+          <span class="font-display text-3xl font-bold text-mec-amber">01</span>
+          <h3 class="font-display text-lg font-semibold">Diagnóstico</h3>
+          <p class="text-mec-secondary text-sm">
+            Visitamos a linha e mapeamos gargalos e riscos.
+          </p>
+        </div>
+
+        <!-- Passo 02 -->
+        <div class="space-y-3">
+          <span class="font-display text-3xl font-bold text-mec-amber">02</span>
+          <h3 class="font-display text-lg font-semibold">Projeto</h3>
+          <p class="text-mec-secondary text-sm">
+            Desenho elétrico, mecânico e lógica de controle.
+          </p>
+        </div>
+
+        <!-- Passo 03 -->
+        <div class="space-y-3">
+          <span class="font-display text-3xl font-bold text-mec-amber">03</span>
+          <h3 class="font-display text-lg font-semibold">Integração</h3>
+          <p class="text-mec-secondary text-sm">
+            Instalação, testes e ajuste fino com a equipe local.
+          </p>
+        </div>
+
+        <!-- Passo 04 -->
+        <div class="space-y-3">
+          <span class="font-display text-3xl font-bold text-mec-amber">04</span>
+          <h3 class="font-display text-lg font-semibold">Suporte contínuo</h3>
+          <p class="text-mec-secondary text-sm ">
+            Monitoramento remoto e manutenção programada.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SEÇÃO: RESULTADOS E DEPOIMENTOS -->
+  <section id="clientes" class="max-w-6xl mx-auto px-6 py-20">
+    <div class="text-center max-w-xl mx-auto mb-16">
+      <h2 class="font-display text-3xl md:text-4xl font-bold">Resultados em campo</h2>
+    </div>
+
+    <!-- Métrica/Estatísticas -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-16">
+      <div>
+        <span class="font-display text-4xl md:text-5xl font-bold text-mec-text">64</span>
+        <p class="text-mec-secondary text-xs md:text-sm mt-2">painéis instalados</p>
+      </div>
+      <div>
+        <span class="font-display text-4xl md:text-5xl font-bold text-mec-text">11</span>
+        <p class="text-mec-secondary text-xs md:text-sm mt-2">anos de mercado</p>
+      </div>
+      <div>
+        <span class="font-display text-4xl md:text-5xl font-bold text-mec-text">99,2%</span>
+        <p class="text-mec-secondary text-xs md:text-sm mt-2">uptime médio</p>
+      </div>
+      <div>
+        <span class="font-display text-4xl md:text-5xl font-bold text-mec-amber">30+</span>
+        <p class="text-mec-secondary text-xs md:text-sm mt-2">fábricas atendidas</p>
+      </div>
+    </div>
+
+    <!-- Depoimentos -->
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-mec-panel p-8 rounded-2xl border-l-4 border-mec-amber">
+        <p class="text-mec-text italic text-sm md:text-base mb-4 ">
+          "Reduzimos as paradas não planejadas em mais de 40% depois da manutenção preditiva."
+        </p>
+        <p class="text-mec-secondary text-xs font-semibold">— Eng. Paula R., planta SP</p>
+      </div>
+
+      <div class="bg-mec-panel p-8 rounded-2xl border-l-4 border-mec-amber">
+        <p class="text-mec-text italic text-sm md:text-base mb-4 ">
+          "A integração do braço robótico ficou pronta antes do prazo e sem parar a linha."
+        </p>
+        <p class="text-mec-secondary text-xs font-semibold">— Marcelo F., gerente de produção</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SEÇÃO: CONTATO / FORMULÁRIO -->
+  <section id="contato" class="bg-mec-panel/20 border-t border-mec-line py-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
+      
+      <!-- Informações de contato -->
+      <div class="space-y-6">
+        <h2 class="font-display text-3xl md:text-4xl font-bold">Peça um orçamento</h2>
+        <p class="text-mec-secondary text-sm max-w-md">
+          Conte um pouco da sua linha de produção — respondemos em até 2 dias úteis com uma proposta inicial.
+        </p>
+
+        <div class="space-y-4 pt-4 text-sm text-mec-secondary">
+          <div class="flex items-center gap-3">
+            <span class="text-mec-amber">📍</span>
+            <span>Rod. Industrial, km 12 — Distrito Industrial</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-mec-amber">⚙️</span>
+            <span>Seg a sex, 8h às 18h</span>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="text-mec-amber">📞</span>
+            <span>(11) 4111-2290</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Formulário -->
+      <form class="bg-mec-panel p-8 rounded-2xl border border-mec-line space-y-5" onsubmit="event.preventDefault();">
+        <div>
+          <label for="nome" class="block text-xs font-medium text-mec-secondary mb-2">Nome</label>
+          <input type="text" id="nome" placeholder="Seu nome" class="w-full bg-mec-bg/80 border border-mec-line rounded-lg px-4 py-3 text-sm text-mec-text placeholder-mec-secondary/50 focus:outline-none focus:border-mec-amber transition-colors">
+        </div>
+
+        <div>
+          <label for="email" class="block text-xs font-medium text-mec-secondary mb-2">E-mail</label>
+          <input type="email" id="email" placeholder="voce@empresa.com" class="w-full bg-mec-bg/80 border border-mec-line rounded-lg px-4 py-3 text-sm text-mec-text placeholder-mec-secondary/50 focus:outline-none focus:border-mec-amber transition-colors">
+        </div>
+
+        <div>
+          <label for="mensagem" class="block text-xs font-medium text-mec-secondary mb-2">Conte sobre a linha</label>
+          <textarea id="mensagem" rows="4" placeholder="Tipo de máquina, gargalo atual, prazo..." class="w-full bg-mec-bg/80 border border-mec-line rounded-lg px-4 py-3 text-sm text-mec-text placeholder-mec-secondary/50 focus:outline-none focus:border-mec-amber transition-colors "></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-mec-amber text-mec-bg font-semibold py-4 rounded-xl hover:bg-white transition-colors">
+          Enviar pedido
+        </button>
+      </form>
+
+    </div>
+  </section>
+
+
+  <!-- RODAPÉ -->
+  <footer class="border-t border-mec-line py-8 bg-mec-bg text-xs text-mec-secondary">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <p>© 2026 MTX Mecatrônica. Site de exemplo para aula de Tailwind CSS.</p>
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-mec-amber transition-colors">LinkedIn</a>
+        <a href="#" class="hover:text-mec-amber transition-colors">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
